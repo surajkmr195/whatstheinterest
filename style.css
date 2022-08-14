@@ -2,21 +2,20 @@ body {
   background-color: whitesmoke;
 }
 h1 {
-  
+  margin-left: 20px;
 }
 
-.Black {
-  background-color: black;
-}
+
+
 .Navigation {
   margin-left: 20px;
   align-self: center;
+  background-color: black;
 }
-.nav_button {
-  color:#000!important;background-color:#ccc!important
-}
+
   p {
     font-size: 32px;
+    margin-left: 20px;
   }
 
 .button {
@@ -30,6 +29,12 @@ h1 {
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
+  margin-left: 20px;
+}
+
+.button0:hover {
+  background-color: ghostwhite;
+  color: black;
 }
 
 .button1 {
