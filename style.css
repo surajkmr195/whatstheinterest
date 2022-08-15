@@ -1,10 +1,40 @@
+.layout-container {
+   width:100%;
+}
+main {
+  width:75%;
+  float:left;
+}
+aside {
+  width:25%;
+  float:left;
+}
+.layout-container:after {
+   clear:both;
+}
+
 body {
   background-color: whitesmoke;
 }
 h1 {
   margin-left: 20px;
 }
+hr {
+        position: relative;
+        height: 2px;
+        background: black;
+        margin-bottom: 5px;
+    }
 
+div.box {
+  height: auto;
+  width: auto;
+  background-color: #cad7ed;
+  outline-style: solid;
+  outline-color: black;
+  outline-width: thin;
+  border: 1px;
+}
 
 
 .Navigation {
