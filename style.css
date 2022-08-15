@@ -1,16 +1,38 @@
 .layout-container {
    width:100%;
-}
+ }
 main {
   width:75%;
   float:left;
-}
+  }
 aside {
+  height: 100%;
   width:25%;
   float:left;
 }
-.layout-container:after {
-   clear:both;
+
+div.aside {
+  outline-style: solid;
+  outline-color: black;
+  outline-width: thin;
+  border: 1px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: gray;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  border-left: 1px #ccc solid;
+}
+
+#footer {
+  float: center;
+  clear: right;
 }
 
 body {
