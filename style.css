@@ -14,13 +14,12 @@ aside {
 .aside {
   margin-top: 32px;
   margin-left: 5px;
+  margin-right: 5px;
   height: 100%;
   width: 25%;
-  background-color: #cad7ed;
-  outline-style: solid;
-  outline-color: black;
-  outline-width: thin;
+  background-color: ghostwhite;
   border: 1px;
+  border-left: 3px solid black;
 }
 
 footer {
